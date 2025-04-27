@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Gift Box Surprise</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <button id="back" onclick="window.location.href = 'index.html';"><img src="assets/back.png"></button>
+
+
+
+    <div class="letter-card">
+        <div class="valentines-day-card">
+            <input id="open" type="checkbox" />
+            <label class="open" for="open">
+                <img src="assets/heart-lock.png" id="heart-img">
+            </label>
+            <div class="card-front">
+                <img src="assets/sample.jpg" />
+            </div>
+
+            <div class="card-inside">
+                <div class="letter-text">
+                    <p>Ethics, at its core, is a system of moral principles that guide decision-making and conduct. It
+                        involves understanding what is right and wrong, and how individuals should treat each other with
+                        respect and fairness. Essentially, ethics provides a framework for determining what is
+                        considered good, bad, right, and wrong in both personal and societal contexts</p>
+                        <br>
+                        <p>Ethics, at its core, is a system of moral principles that guide decision-making and conduct. It
+                        involves understanding what is right and wrong, and how individuals should treat each other with
+                        respect and fairness. Essentially, ethics provides a framework for determining what is
+                        considered good, bad, right, and wrong in both personal and societal contexts</p>
+                </div>
+            </div>
+        </div>
+        <!-- Unique ID for background music -->
+        <audio id="card-music" src="assets/music.mp3" preload="auto"></audio>
+        <!-- Unique ID for looping background music -->
+        <audio id="open-close-sound" src="assets/page-sound.mp3"></audio>
+    </div>
+
+
+
+
+
+
+
+
+    <div id="merrywrap" class="merrywrap">
+        <div class="giftbox">
+            <div class="cover">
+                <div></div>
+            </div>
+
+            <div class="box"></div>
+        </div>
+        <div class="icons"></div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
